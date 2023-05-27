@@ -1,0 +1,145 @@
+#as {
+    text-decoration: none;
+    color: #e5e5e5;
+}/*  mettre le text (back) en blanc et enelever le surlignage */
+
+#ass {
+    margin-left: 25px;
+    margin-right: 10px;
+}/*  donner au  text (back) des marges */
+
+
+
+#navcarre {
+    border: 2px solid #e5e5e5;
+}/*  donner des bordures au carre constituer de (desktop;tablet;mobile) */
+
+
+
+
+
+#entete {
+    margin-top: 160px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 200px;
+    font-size: 90px;
+    font-family: Courier New;
+    color: rgb(248, 111, 111);
+    text-shadow: 5px 5px rgb(209, 209, 209);
+}/*  donner des bordures,une taille , un type  de police et de l'ombre
+ au  texte en grand (strongly typed) */
+
+#carre1 {
+    border-top: 1px solid #e5e5e5;
+    color: #888;
+}/*  donner des bordures et une couleur au carre constituer des petits carres  */
+
+#cards {
+    border: none;
+} /*  enlever les bordures  de tout les cards */
+
+
+#aros {
+
+    margin: 40px;
+    box-shadow: 1px 1px 10px 2px;
+}  /*  donner des marges à l'exterieur de  tout  les cotés  du carrosel */
+
+
+.butt {
+    border-radius: 5px;  /*  donner des rondeurs  aux bordures de la div */
+    width: 280px;/*  donner une largeur a la div */
+    margin: auto;/*  centrer la div   */
+    font-size: 15px;/*  donner une taille de police */
+    padding: 15px;/*  donner des marges à l'interieur de tout les cotés  de la div*/
+    color: white;/*  donner une couleur aux textes de la div */
+    background-color: #ed786a;/*  donner une couleur de fond a la div */
+}
+
+#premiercontenaire {
+    border-bottom: 1px solid #e5e5e5;
+} /*  donner des bordures du bas */
+
+.tt {
+    border-radius: 5px;  /*  donner des rondeurs  aux bordures de la div */
+    width: 280px;/*  donner une largeur a la div */
+    font-size: 15px;/*  donner une taille de police */
+    padding: 15px;/*  donner des marges à l'interieur de tout les cotés  de la div*/
+    color: white;/*  donner une couleur aux textes de la div */
+    background-color: #ed786a;/*  donner une couleur de fond a la div */
+}
+
+
+#ttt {
+    border-radius: 5px;  /*  donner des rondeurs  aux bordures de la div */
+    font-size: 15px;/*  donner une taille de police */
+    padding: 15px;/*  donner des marges à l'interieur de tout les cotés  de la div*/
+    color: white;/*  donner une couleur aux textes de la div */
+    background-color: #ed786a;/*  donner une couleur de fond a la div */
+}
+
+
+#igx {
+    width: 100%;/*  donner une largeur à la div */
+    float: left; /*  mettre la div à gauche */
+    margin: 10px;/*  donner des marges à l'exterieur de tout les cotés  de la div*/
+} 
+
+
+
+
+
+#ooterr {
+    background-color: #e5e5e5;/*  donner une couleur de fond au pied de page */
+
+    padding-bottom: 150px;/*  donner des marges à l'interieur du haut du pied de page */
+    color: #888;/*  donner une couleur de texte au pied de page */
+    box-shadow: 2px 2px 15px 2px;/*  donner de l'ombre aux bordures du pied de page */
+
+}
+
+#accordeon {
+    background-color: rgb(102, 102, 102);
+    color: white;
+
+}/*  mettre une couleur de fond et de texte a la div */
+
+
+
+
+img:hover {
+    transition: 0.4s;
+    transform: scale(1.02);
+} /*  faire une animation de zoom sur toutes les images au passage de la souris */
+
+img:not(:hover) {
+    transition: 0.4s;
+
+}/*  faire une animation pour remttre  les images a leurs taille initiales */
+
+#fover:hover {
+    color: #ed786a;
+}/*  changer la couleur  au passage de la souris sur la deuxieme nav */
+
+
+svg {
+    margin-right: 6px;
+
+} /* donner des marges  aux images en svg */
+
+
+
+#deuxiemmecontenaire {
+    border-top: 1px solid #e5e5e5;
+    color: #888;
+} /* donner des bordures de haut   aux deuxieme carre  */
+
+
+
+
+#minicards {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+} /* donner des bordures de haut  et les autres bordures  aux cards du deuxieme carre */
